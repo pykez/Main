@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ myproject/public/ [L]
+  RewriteRule (.*) myproject/public/$1 [L]
+</IfModule>
+
+php_value display_errors 1

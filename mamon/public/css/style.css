@@ -1,0 +1,386 @@
+
+/* Navbar! */
+
+.navbar {
+    margin-top: 60px;
+    height: 58px;
+    width: 80vw;
+    margin-left: 10vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .2s;
+}
+
+.navbar .logo {
+    margin-right: 3vw;
+}
+
+.navbar .container-logo {
+    margin-right: 25vw;
+}
+
+.navbar .item-logo{
+
+font-family: ubunturegular;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #202020;
+
+}
+
+.navbar .item a{
+    font-family: ubunturegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #202020;
+    padding: 8px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.navbar .item a:hover { 
+text-decoration: none; 
+color: white;
+background: #5528FF;
+border-radius: 10px;
+text-align: center;
+
+
+} 
+
+
+
+
+.navbar .item-btn a {
+    font-family: ubunturegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5528FF;
+    padding: 6px;
+    border: 1px solid;
+    border-color: #5528FF;
+    transition: .6s;
+    border-radius: 10px;
+
+}
+
+
+.navbar .item-btn a:hover {
+    text-decoration: none; 
+color: white;
+border-radius: 10px;
+text-align: center;
+background: #5528FF;
+
+}
+
+
+
+ 
+/* QUEM SOMOS */
+h1 {
+
+    width: 80vw;
+    margin-left: 10vw;
+    font-family: ubuntulight;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+
+color: #202020;
+
+margin-top: 80px;
+}
+
+.texto-principal {
+
+    width: 50vw;
+
+    margin-left: 10vw;
+    
+    margin-top: 35px;
+
+font-family: ubunturegular;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+
+color: #4F4F4F;
+
+}
+
+
+.contact-btn {
+    margin-top: 38px;
+}
+.contact-btn a{
+    font-family: ubunturegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    left: calc(50% - 235px/2 - 473.5px);
+    top: 595px;
+    margin-left: 10vw;
+    color: #5528FF;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 1px solid;
+    border-color: #5528FF;
+    transition: .6s;
+    border-radius: 10px;
+}
+
+.contact-btn a:hover{
+    text-decoration: none; 
+color: white;
+border-radius: 10px;
+text-align: center;
+background: #5528FF;
+
+}
+
+
+/* Line breaker */
+
+.line-breaker{
+    margin-top: 40px;  
+    width: 100vw;
+    height: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+
+.line-breaker .line-breaker1 {
+height: .5px;
+width: 30vh;
+margin-top: 8px;
+
+background: #C2C2C2;
+}
+
+.line-breaker .line-text {
+    font-family: ubunturegular;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+color: #C2C2C2;
+}
+
+.line-breaker  .line-breaker2{
+   height: .5px;
+   width: 75vw;
+   margin-top: 8px;
+
+background: #C2C2C2;
+}
+
+
+/* Services! */
+
+.servicos{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: auto;
+}
+
+
+.servicos h2 {
+font-family: ubunturegular;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+}
+
+
+.servicos p {
+    font-family: ubunturegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+
+color: #B2B2B2;
+} 
+
+.servicos .txt{
+    width: 25vw;
+    padding-left: 3vw;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.servicos img{
+    margin: auto;
+}
+
+
+/* CLIENTS! */
+
+.clients {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.clients .col-sm {
+
+    height: 250px;
+
+} 
+
+
+.clients img {
+    height: 30px;
+}
+
+/* TEAM! */
+
+.time .row{
+    margin: auto;
+}
+
+.time {
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+.time img {
+    border-radius: 50%;
+    width: 8vw;
+}
+
+.time h2{
+width: 84px;
+height: 33px;
+font-family: ubunturegular;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+color: #202020;
+}
+
+.time p{
+width: 132px;
+height: 17px;
+font-family: ubunturegular;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #B2B2B2;
+
+}
+
+
+
+.time .item{
+    margin-bottom: 3vw;
+}
+
+/* FOOTER! */
+
+.footer {
+    height: 100px;
+    background: #F7F7F7;
+}
+
+.footer .logo{
+    margin-left: 10vw;
+}
+
+.footer .smallimgs {
+    margin-right: 10vw;
+}
+
+
+
+@media (max-width:1500px){
+
+
+    
+    .line-breaker .line-breaker1{
+        width: 20vw;
+    }
+    
+    .line-breaker .line-breaker2 {
+        width: 60vw;
+    }
+    
+    }
+
+    @media (max-width: 900px){
+        .time img{
+            display: none;
+        }
+
+        .navbar .item-btn {
+            display: none;
+        }
+
+        .navbar .container-logo {
+            margin-right: 0vw;
+        }
+
+        
+
+
+    }
+    
+    @media (max-width:600px){
+    
+
+            .line-breaker .line-breaker1{
+                width: 10vw;
+            }
+            
+            .line-breaker .line-breaker2 {
+                width: 50vw;
+        }
+
+            .servicos img{
+                display: none;
+            }
+
+            .servicos .txt {
+                width: 60vw;
+            }
+
+            .time .text {
+                width: 60vw;
+            }
+            .time p {
+                width: auto;
+            }
+
+    }
+
+
+
+
